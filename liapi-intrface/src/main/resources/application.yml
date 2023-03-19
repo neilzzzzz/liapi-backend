@@ -1,0 +1,9 @@
+server:
+  port: 8123
+  servlet:
+    context-path: /api
+liapi:
+  clint:
+    access-key: zhangsan
+    secret-key: abcedg
+

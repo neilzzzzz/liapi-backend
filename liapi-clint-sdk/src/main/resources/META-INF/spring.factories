@@ -1,0 +1,2 @@
+# springboot starter
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.example.config.LiApiConfig
