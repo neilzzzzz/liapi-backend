@@ -20,7 +20,7 @@ API 接口平台：
 
 ### 业务架构图
 
-![业务架构](https://github.com/neilzzzzz/liapi-backend/blob/master/img/41ccda886725f220b04c499b07f0ba0.png)
+![业务架构](./img/41ccda886725f220b04c499b07f0ba0.png)
 
 
 
