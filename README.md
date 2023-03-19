@@ -1,25 +1,34 @@
-# SpringBoot 项目初始模板
-Java SpringBoot 项目初始模板，整合了常用框架和示例代码，大家可以在此基础上快速开发自己的项目。
+## 项目背景
 
-## 模板功能
+项目背景：
 
-- Spring Boot 2.7.0（贼新）
-- Spring MVC
-- MySQL 驱动
-- MyBatis
-- MyBatis Plus
-- Spring Session Redis 分布式登录
-- Spring AOP
-- Apache Commons Lang3 工具类
-- Lombok 注解
-- Swagger + Knife4j 接口文档
-- Spring Boot 调试工具和项目处理器
-- 全局请求响应拦截器（记录日志）
-- 全局异常处理器
-- 自定义错误码
-- 封装通用响应类
-- 示例用户注册、登录、搜索功能
-- 示例单元测试类
-- 示例 SQL（用户表）
+1. 前端开发需要用到后端接口
+2. 使用现成的系统的功能（http://api.btstu.cn/）
 
-访问 localhost:7529/api/doc.html 就能在线调试接口了，不需要前端配合啦~
+API 接口平台：
+
+1. 防止攻击（安全性）
+2. 不能随便调用（限制、开通）
+3. **统计调用次数**
+4. 计费
+5. 流量保护
+6. API 接口
+
+## 项目介绍
+
+做一个提供 API 接口调用的平台，用户可以注册登录，开通接口调用权限，用户可以使用接口，并且每次调用会进行统计。管理员可以发布接口、下线接口、接入接口，以及可视化接口的调用情况、数据。
+
+### 业务架构图
+
+![1679238960376](C:\Windows\TEMP\1679238960376.png)
+
+
+
+## 技术选型
+
+### 后端
+
+- Java Spring Boot
+- Sring Boot Starter （SDK 开发）
+- Spring Cloud Gateway(网关、限流、日志)
+- Dubbo(RPC)
